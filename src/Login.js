@@ -5,22 +5,24 @@ const Login = () => {
     return (
         <div className="bodyline">
             <div className="loginballoon">
-                <div className="ID">
-                    <p className="inline">ID</p>
-                    <p className="inline underline"></p>
-                </div>
-                <div className="PW">
-                    <p className="inline">PW</p>
-                    <p className="inline underline"></p>
-                </div>
-                <div className="loginbutton">
-                    <div className="headfactor center">
-                        <p className="height5">Log In</p>
+                <form>
+                    <div className="ID">
+                        <p className="inline">ID</p>
+                        <input type="text" className="inline underline"></input>
                     </div>
-                    <div className="headfactor center">
-                        <p className="height5">Find Your ID / PW</p>
-                    </div> 
-                </div>
+                    <div className="PW">
+                        <p className="inline">PW</p>
+                        <input type="password" className="inline underline"></input>
+                    </div>
+                    <div className="loginbutton">
+                        <div className="headfactor center">
+                            <p className="height5">Log In</p>
+                        </div>
+                        <div className="headfactor center">
+                            <p className="height5">Find Your ID / PW</p>
+                        </div> 
+                    </div>
+                </form>
             </div>
             <div className="maindisplay">
                 <h1 className="mainfont">강아지 가이드</h1>
