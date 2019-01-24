@@ -47,11 +47,19 @@
 
 .center {
     vertical-align: middle;
+    width: 18em
 }
 
 .loginbutton {
     margin-top: 1em;
-    float: right;
-    position: relative;
-    left: -13%;
+    width: 20em;
+    position: static;
+    vertical-align: middle;
+}
+
+input.height5 {
+    background: white;
+    border: 0;
+    width: 100%;
+    display: inline-block;
 }
