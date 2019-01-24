@@ -16,9 +16,8 @@ const Login = () => {
                     </div>
                     <div className="loginbutton">
                         <div className="headfactor center">
-                            <input type="submit" value="Log In" className="height5" />
+                            <input type="submit" value="Log In" className="headfactor center height5" />
                         </div>
-                        
                     </div>
                 </form>
             </div>

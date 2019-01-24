@@ -35,6 +35,15 @@
     margin: 0;
 }
 
+input.underline {
+    border: 0;
+    border-bottom: 1px solid black;
+    float: right;
+    width: 15em;
+    height: 130%;
+    margin: 0;
+}
+
 .ID {
     height: 1em;
     padding: 0.7em;

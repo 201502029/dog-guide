@@ -6,26 +6,28 @@ const Joinus = () => {
     return (
         <div className="bodyline">
             <div className="joinusballoon">
-                <h5 className="subfont">회원 가입!</h5>
-                <div className="ID">
-                    <p className="inline left">ID</p>
-                    <p className="inline underline"></p>
-                </div>
-                <div className="PW">
-                    <p className="inline left">PW</p>
-                    <p className="inline underline"></p>
-                </div>
-                <div className="PW">
-                    <p className="inline left">PW</p>
-                    <p className="inline underline"></p>
-                </div>
-                <Link to="/" className="none">
-                    <div className="joinusbutton">
-                        <div className="headfactor center">
-                        <p className="height5">Create!</p>
-                        </div>
+                <form>
+                    <h5 className="subfont">회원 가입!</h5>
+                    <div className="ID">
+                        <p className="inline left">ID</p>
+                        <input type="text" className="inline underline"></input>
                     </div>
-                </Link>
+                    <div className="PW">
+                        <p className="inline left">PW</p>
+                        <input type="password" className="inline underline"></input>
+                    </div>
+                    <div className="PW ">
+                        <p className="inline left">PW Check</p>
+                        <input type="password" className="inline underline"></input>
+                    </div>
+                    <Link to="/" className="none">
+                        <div className="joinusbutton">
+                            <div className="headfactor center">
+                            <p className="height5">Create!</p>
+                            </div>
+                        </div>
+                    </Link>
+                </form>
             </div> 
             <div className="maindisplay">
                 <h1 className="mainfont">강아지 가이드</h1>
