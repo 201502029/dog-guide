@@ -1,0 +1,57 @@
+.loginballoon {
+    display: inline-block;
+    position: relative;
+    background: white;
+    height: 9em;
+    width: 20em;
+    margin: 1em;
+    padding: 1em;
+    float: right;
+    color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.loginballoon:after {
+    content: '';
+    position: absolute;
+    border-bottom: 10px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: 11em;
+    right: 7.2em;
+}
+
+.inline {
+    color: #AAA;
+    display: inline;
+}
+
+.underline {
+    border-bottom: 1px solid #AAA;
+    float: right;
+    width: 15em;
+    height: 100%;
+    margin: 0;
+}
+
+.ID {
+    height: 1em;
+    padding: 0.7em;
+}
+
+.PW {
+    height: 1em;
+    padding: 0.7em;
+}
+
+.center {
+    vertical-align: middle;
+}
+
+.loginbutton {
+    margin-top: 1em;
+    float: right;
+    position: relative;
+    left: -13%;
+}

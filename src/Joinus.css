@@ -1,0 +1,44 @@
+.joinusballoon {
+    display: inline-block;
+    position: relative;
+    background: white;
+    height: 15.5em;
+    width: 20em;
+    margin: 1em;
+    padding: 1em;
+    float: right;
+    color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.joinusballoon::after {
+    content: '';
+    position: absolute;
+    border-bottom: 10px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: 17.5em;
+    right: 2.3em;
+}
+
+.maindisplay {
+    vertical-align: middle;
+    width: 100%;
+}
+
+h5.subfont {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.left {
+    float: left;
+    margin: 0;
+}
+
+.joinusbutton {
+    margin-top: 1em;
+    position: relative;
+    text-align: center;
+}

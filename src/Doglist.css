@@ -1,0 +1,20 @@
+.plusicon {
+    position: static;
+    float: center;
+    vertical-align: middle;
+    width: 40%;
+    height: 100%;
+    left: 30%;
+}
+
+.listwhitebox {
+    padding: 0;
+    position: static;
+    border-radius: 1em;
+    float: left;
+    background: white;
+}
+
+.listsubfont {
+    color: black;
+}

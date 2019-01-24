@@ -1,0 +1,23 @@
+.tipsballoon {
+    display: inline-block;
+    position: relative;
+    background: white;
+    height: 9em;
+    width: 20em;
+    margin: 1em;
+    padding: 1em;
+    float: right;
+    color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+.tipsballoon:after {
+    content: '';
+    position: absolute;
+    border-bottom: 10px solid white;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: 11em;
+    right: 11.3em;
+}

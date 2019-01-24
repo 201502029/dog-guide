@@ -1,0 +1,51 @@
+.infowhitebox {
+    height: 30em;
+    width: 80%;
+    background: white;
+    border-radius: 1em;
+    margin: 0 10%
+}
+
+.infoblockimage {
+    vertical-align: middle;
+    float: left;
+    height: 20em;
+    width: auto;
+    margin: 5em 2em;
+}
+
+.infomainfont {
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+    text-align: left;
+}
+
+.infosubfont {
+    text-align: left;
+    margin: 2em;
+    color: black;
+    font-size: 15px;
+    margin: 0 0 1em 0;
+}
+
+.bodyline {
+    background-image: url("https://images.unsplash.com/photo-1461699399664-b9d990cd3df6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80");
+    opacity: 0.7;
+    height: 45em;
+}
+
+.transbox {
+    height: 7em;
+    width: 100%;
+}
+
+.explain {
+    height: 24em;
+    width: 55%;
+    float: right;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-right: 3em;
+}
